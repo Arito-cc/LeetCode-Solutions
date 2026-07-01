@@ -7,6 +7,7 @@
 | [0001-two-sum](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0001-two-sum) |
 | [0014-longest-common-prefix](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0014-longest-common-prefix) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0049-group-anagrams](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0049-group-anagrams) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0217-contains-duplicate](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0217-contains-duplicate) |
@@ -27,11 +28,13 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0001-two-sum) |
+| [0049-group-anagrams](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0242-valid-anagram) |
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0242-valid-anagram) |
 ## Simulation
@@ -43,6 +46,7 @@
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0014-longest-common-prefix) |
+| [0049-group-anagrams](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0242-valid-anagram) |
 ## Trie
 |  |
