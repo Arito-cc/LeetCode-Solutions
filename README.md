@@ -9,6 +9,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0217-contains-duplicate](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0217-contains-duplicate) |
+| [1920-build-array-from-permutation](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/1920-build-array-from-permutation) |
 | [1929-concatenation-of-array](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/1929-concatenation-of-array) |
 ## Dynamic Programming
 |  |
@@ -33,6 +34,7 @@
 ## Simulation
 |  |
 | ------- |
+| [1920-build-array-from-permutation](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/1920-build-array-from-permutation) |
 | [1929-concatenation-of-array](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/1929-concatenation-of-array) |
 ## String
 |  |
