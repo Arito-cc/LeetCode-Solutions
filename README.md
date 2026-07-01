@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0001-two-sum) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 ## Dynamic Programming
@@ -15,4 +16,8 @@
 |  |
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
