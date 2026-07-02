@@ -1,4 +1,52 @@
-# LeetCode-Solutions
+# 🚀 LeetCode Solutions
+
+<div align="center"> 
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-Arito--cc-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Arito-cc/)
+[![GitHub](https://img.shields.io/badge/GitHub-Arito--cc-181717?style=for-the-badge&logo=github)](https://github.com/Arito-cc)
+![Problems Solved](https://img.shields.io/badge/Problems-21-success?style=for-the-badge)
+
+</div>
+
+---
+
+## 📈 Progress
+
+| Difficulty | Solved |
+|------------|---------|
+| 🟢 Easy | 15 |
+| 🟡 Medium | 6 |
+| 🔴 Hard | 0 |
+| **Total** | **21** |
+
+### 🎯 Goal: 150 Problems
+
+```text
+██░░░░░░░░░░░░░░░░░░
+21/150 (14%)
+```
+
+---
+
+## ☕ Languages
+
+- Java (Primary DSA Language)
+- Python (Early Practice & Learning)
+
+---
+
+## 🔥 Recently Solved
+
+| Problem | Difficulty | Language |
+|----------|------------|-----------|
+| `0058-length-of-last-word` | Easy | Java ☕ |
+| `0167-two-sum-ii-input-array-is-sorted` | Medium | Java ☕ |
+| `0011-container-with-most-water` | Medium | Java ☕ |
+| `0283-move-zeroes` | Easy | Java ☕ |
+| `0189-rotate-array` | Medium | Python 🐍 |
+
+---
+
 <!---LeetCode Topics Start-->
 # LeetCode Topics
 ## Array
