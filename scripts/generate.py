@@ -6,12 +6,12 @@ GOAL = 150
 with open("stats.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
-leetcode = data.get("leetcode", {})
+leetcode = data["leetcode"]
 
-easy = leetcode.get("easy", 0)
-medium = leetcode.get("medium", 0)
-hard = leetcode.get("hard", 0)
-total = leetcode.get("solved", 0)
+easy = leetcode["easy"]
+medium = leetcode["medium"]
+hard = leetcode["hard"]
+total = data["solved"]
 
 percentage = int((total / GOAL) * 100) if GOAL else 0
 filled = min(20, percentage // 5)
@@ -23,28 +23,13 @@ for problem, info in reversed(list(leetcode["shas"].items())):
         continue
 
     difficulty = info.get("difficulty", "unknown").capitalize()
-    languages = []
+    lang = "Unknown"
 
-for file_name in info:
-    if file_name.endswith(".java"):
-        languages.append("Java ☕")
-
-    elif file_name.endswith(".py"):
-        languages.append("Python 🐍")
-
-    elif file_name.endswith(".cpp"):
-        languages.append("C++ ⚡")
-
-    elif file_name.endswith(".js"):
-        languages.append("JavaScript 🟨")
-
-    elif file_name.endswith(".ts"):
-        languages.append("TypeScript 🔷")
-
-# Remove duplicates while preserving order
-languages = list(dict.fromkeys(languages))
-
-lang = " · ".join(languages) if languages else "Unknown"
+    for file_name in info:
+        if file_name.endswith(".java"):
+            lang = "Java ☕"
+        elif file_name.endswith(".py"):
+            lang = "Python 🐍"
 
     recent.append((problem, difficulty, lang))
 
