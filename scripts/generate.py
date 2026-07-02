@@ -23,13 +23,28 @@ for problem, info in reversed(list(leetcode["shas"].items())):
         continue
 
     difficulty = info.get("difficulty", "unknown").capitalize()
-    lang = "Unknown"
+    languages = []
 
-    for file_name in info:
-        if file_name.endswith(".java"):
-            lang = "Java ☕"
-        elif file_name.endswith(".py"):
-            lang = "Python 🐍"
+for file_name in info:
+    if file_name.endswith(".java"):
+        languages.append("Java ☕")
+
+    elif file_name.endswith(".py"):
+        languages.append("Python 🐍")
+
+    elif file_name.endswith(".cpp"):
+        languages.append("C++ ⚡")
+
+    elif file_name.endswith(".js"):
+        languages.append("JavaScript 🟨")
+
+    elif file_name.endswith(".ts"):
+        languages.append("TypeScript 🔷")
+
+# Remove duplicates while preserving order
+languages = list(dict.fromkeys(languages))
+
+lang = " · ".join(languages) if languages else "Unknown"
 
     recent.append((problem, difficulty, lang))
 
