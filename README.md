@@ -16,6 +16,7 @@
 | [0169-majority-element](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0189-rotate-array) |
 | [0217-contains-duplicate](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0217-contains-duplicate) |
+| [0283-move-zeroes](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0485-max-consecutive-ones) |
 | [1480-running-sum-of-1d-array](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/1480-running-sum-of-1d-array) |
 | [1920-build-array-from-permutation](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/1920-build-array-from-permutation) |
@@ -72,6 +73,7 @@
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/Arito-cc/LeetCode-Solutions/tree/master/0283-move-zeroes) |
 ## Divide and Conquer
 |  |
 | ------- |
