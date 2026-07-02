@@ -1,15 +1,40 @@
 # 🚀 LeetCode Solutions
 
-## 📊 Progress
+<div align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&center=true&vCenter=true&width=700&lines=Java+%7C+Python+%7C+DSA;150%2B+Problems+Goal;Learning+One+Problem+At+A+Time" />
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-Arito--cc-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Arito-cc/)
+[![GitHub](https://img.shields.io/badge/GitHub-Arito--cc-181717?style=for-the-badge&logo=github)](https://github.com/Arito-cc)
+![Solved](https://img.shields.io/badge/Solved-22-success?style=for-the-badge)
+
+</div>
+
+## 📊 Statistics
 
 | Total | Easy | Medium | Hard |
 |---:|---:|---:|---:|
 | **22** | 🟢 16 | 🟡 6 | 🔴 0 |
 
+## 🎯 Goal Progress
+
 ```text
 ██░░░░░░░░░░░░░░░░░░
 22/150 (14%)
 ```
+
+## 🏆 Milestones
+
+- [ ] 25 Problems
+- [ ] 50 Problems
+- [ ] 75 Problems
+- [ ] 100 Problems
+- [ ] 150 Problems ⭐
+
+## ⚡ Languages
+
+![Java](https://img.shields.io/badge/Java-Primary-orange?logo=openjdk)
+![Python](https://img.shields.io/badge/Python-Learning-blue?logo=python)
 
 ## 🔥 Recent Submissions
 
@@ -28,7 +53,7 @@
 
 ---
 
-> The topic index below is maintained automatically by LeetHub.
+> The topic section below is automatically maintained by LeetHub.
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
