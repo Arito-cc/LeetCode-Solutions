@@ -2,54 +2,32 @@ import json
 from pathlib import Path
 
 GOAL = 150
+RECENT_LIMIT = 10
 
-with open("stats.json", "r", encoding="utf-8") as f:
-    data = json.load(f)
+def get_languages(info):
+    langs=[]
+    mp={'.java':'Java ☕','.py':'Python 🐍','.cpp':'C++ ⚡','.js':'JavaScript 🟨','.ts':'TypeScript 🔷'}
+    for f in info:
+        for ext,label in mp.items():
+            if f.endswith(ext): langs.append(label)
+    return ' · '.join(dict.fromkeys(langs)) if langs else 'Unknown'
 
-leetcode = data["leetcode"]
-
-easy = leetcode["easy"]
-medium = leetcode["medium"]
-hard = leetcode["hard"]
-total = data["solved"]
-
-percentage = int((total / GOAL) * 100) if GOAL else 0
-filled = min(20, percentage // 5)
-progress_bar = "█" * filled + "░" * (20 - filled)
-
-recent = []
-for problem, info in reversed(list(leetcode["shas"].items())):
-    if problem in ["README.md", "stats.json"]:
-        continue
-
-    difficulty = info.get("difficulty", "unknown").capitalize()
-    lang = "Unknown"
-
-    for file_name in info:
-        if file_name.endswith(".java"):
-            lang = "Java ☕"
-        elif file_name.endswith(".py"):
-            lang = "Python 🐍"
-
-    recent.append((problem, difficulty, lang))
-
-recent = recent[:5]
-recent_rows = "\n".join(
-    f"| `{name}` | {difficulty} | {lang} |"
-    for name, difficulty, lang in recent
-)
-
-content = f"""# 🚀 LeetCode Solutions
-
-<div align=\"center\"> 
-
-[![LeetCode](https://img.shields.io/badge/LeetCode-Arito--cc-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Arito-cc/)
-[![GitHub](https://img.shields.io/badge/GitHub-Arito--cc-181717?style=for-the-badge&logo=github)](https://github.com/Arito-cc)
-![Problems Solved](https://img.shields.io/badge/Problems-{total}-success?style=for-the-badge)
-
-</div>
-
----
+with open('stats.json',encoding='utf-8') as f:
+    data=json.load(f)
+lc=data.get('leetcode',{})
+easy=lc.get('easy',0)
+medium=lc.get('medium',0)
+hard=lc.get('hard',0)
+total=lc.get('solved',0)
+pct=int(total*100/GOAL) if GOAL else 0
+bar='█'*min(20,pct//5)+'░'*(20-min(20,pct//5))
+recent=[]
+for p,info in reversed(list(lc.get('shas',{}).items())):
+    if p in ('README.md','stats.json'): continue
+    recent.append((p,info.get('difficulty','unknown').capitalize(),get_languages(info)))
+recent=recent[:RECENT_LIMIT]
+rows='\n'.join(f'| `{p}` | {d} | {l} |' for p,d,l in recent)
+content=f'''# 🚀 LeetCode Solutions
 
 ## 📈 Progress
 
@@ -60,40 +38,25 @@ content = f"""# 🚀 LeetCode Solutions
 | 🔴 Hard | {hard} |
 | **Total** | **{total}** |
 
-### 🎯 Goal: {GOAL} Problems
-
 ```text
-{progress_bar}
-{total}/{GOAL} ({percentage}%)
+{bar}
+{total}/{GOAL} ({pct}%)
 ```
 
----
-
-## ☕ Languages
-
-- Java (Primary DSA Language)
-- Python (Early Practice & Learning)
-
----
-
-## 🔥 Recently Solved
+## 🔥 Recent Submissions
 
 | Problem | Difficulty | Language |
 |----------|------------|-----------|
-{recent_rows}
+{rows}
 
 ---
 
-"""
-
-readme_path = Path("README.md")
-if readme_path.exists():
-    current = readme_path.read_text(encoding="utf-8")
-    start = "<!---LeetCode Topics Start-->"
-    end = "<!---LeetCode Topics End-->"
-
-    if start in current and end in current:
-        section = current[current.index(start): current.index(end) + len(end)]
-        content += section + "\n"
-
-readme_path.write_text(content, encoding="utf-8")
+'''
+rp=Path('README.md')
+if rp.exists():
+    cur=rp.read_text(encoding='utf-8')
+    s='<!---LeetCode Topics Start-->'
+    e='<!---LeetCode Topics End-->'
+    if s in cur and e in cur:
+        content+=cur[cur.index(s):cur.index(e)+len(e)]+'\n'
+rp.write_text(content,encoding='utf-8')
