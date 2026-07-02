@@ -1,13 +1,10 @@
 # 🚀 LeetCode Solutions
 
-## 📈 Progress
+## 📊 Progress
 
-| Difficulty | Solved |
-|------------|---------|
-| 🟢 Easy | 16 |
-| 🟡 Medium | 6 |
-| 🔴 Hard | 0 |
-| **Total** | **22** |
+| Total | Easy | Medium | Hard |
+|---:|---:|---:|---:|
+| **22** | 🟢 16 | 🟡 6 | 🔴 0 |
 
 ```text
 ██░░░░░░░░░░░░░░░░░░
@@ -16,20 +13,22 @@
 
 ## 🔥 Recent Submissions
 
-| Problem | Difficulty | Language |
-|----------|------------|-----------|
-| `0387-first-unique-character-in-a-string` | Easy | Python 🐍 |
-| `0058-length-of-last-word` | Easy | Java ☕ |
-| `0167-two-sum-ii-input-array-is-sorted` | Medium | Java ☕ |
-| `0011-container-with-most-water` | Medium | Java ☕ |
-| `0283-move-zeroes` | Easy | Java ☕ |
-| `0189-rotate-array` | Medium | Python 🐍 |
-| `0169-majority-element` | Easy | Python 🐍 |
-| `0080-remove-duplicates-from-sorted-array-ii` | Medium | Python 🐍 |
-| `0088-merge-sorted-array` | Easy | Java ☕ |
-| `0027-remove-element` | Easy | Java ☕ |
+| # | Problem | Difficulty | Languages |
+|---|---|---|---|
+| 387 | [First Unique Character In A String](./0387-first-unique-character-in-a-string) | 🟢 Easy | Python 🐍 |
+| 58 | [Length Of Last Word](./0058-length-of-last-word) | 🟢 Easy | Java ☕ |
+| 167 | [Two Sum Ii Input Array Is Sorted](./0167-two-sum-ii-input-array-is-sorted) | 🟡 Medium | Java ☕ |
+| 11 | [Container With Most Water](./0011-container-with-most-water) | 🟡 Medium | Java ☕ |
+| 283 | [Move Zeroes](./0283-move-zeroes) | 🟢 Easy | Java ☕ |
+| 189 | [Rotate Array](./0189-rotate-array) | 🟡 Medium | Python 🐍 |
+| 169 | [Majority Element](./0169-majority-element) | 🟢 Easy | Python 🐍 |
+| 80 | [Remove Duplicates From Sorted Array Ii](./0080-remove-duplicates-from-sorted-array-ii) | 🟡 Medium | Python 🐍 |
+| 88 | [Merge Sorted Array](./0088-merge-sorted-array) | 🟢 Easy | Java ☕ |
+| 27 | [Remove Element](./0027-remove-element) | 🟢 Easy | Java ☕ |
 
 ---
+
+> The topic index below is maintained automatically by LeetHub.
 
 <!---LeetCode Topics Start-->
 # LeetCode Topics
