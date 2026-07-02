@@ -1,15 +1,5 @@
 # 🚀 LeetCode Solutions
 
-<div align="center"> 
-
-[![LeetCode](https://img.shields.io/badge/LeetCode-Arito--cc-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Arito-cc/)
-[![GitHub](https://img.shields.io/badge/GitHub-Arito--cc-181717?style=for-the-badge&logo=github)](https://github.com/Arito-cc)
-![Problems Solved](https://img.shields.io/badge/Problems-22-success?style=for-the-badge)
-
-</div>
-
----
-
 ## 📈 Progress
 
 | Difficulty | Solved |
@@ -19,23 +9,12 @@
 | 🔴 Hard | 0 |
 | **Total** | **22** |
 
-### 🎯 Goal: 150 Problems
-
 ```text
 ██░░░░░░░░░░░░░░░░░░
 22/150 (14%)
 ```
 
----
-
-## ☕ Languages
-
-- Java (Primary DSA Language)
-- Python (Early Practice & Learning)
-
----
-
-## 🔥 Recently Solved
+## 🔥 Recent Submissions
 
 | Problem | Difficulty | Language |
 |----------|------------|-----------|
@@ -44,6 +23,11 @@
 | `0167-two-sum-ii-input-array-is-sorted` | Medium | Java ☕ |
 | `0011-container-with-most-water` | Medium | Java ☕ |
 | `0283-move-zeroes` | Easy | Java ☕ |
+| `0189-rotate-array` | Medium | Python 🐍 |
+| `0169-majority-element` | Easy | Python 🐍 |
+| `0080-remove-duplicates-from-sorted-array-ii` | Medium | Python 🐍 |
+| `0088-merge-sorted-array` | Easy | Java ☕ |
+| `0027-remove-element` | Easy | Java ☕ |
 
 ---
 
