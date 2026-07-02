@@ -6,12 +6,12 @@ GOAL = 150
 with open("stats.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
-leetcode = data["leetcode"]
+leetcode = data.get("leetcode", {})
 
-easy = leetcode["easy"]
-medium = leetcode["medium"]
-hard = leetcode["hard"]
-total = data["solved"]
+easy = leetcode.get("easy", 0)
+medium = leetcode.get("medium", 0)
+hard = leetcode.get("hard", 0)
+total = leetcode.get("solved", 0)
 
 percentage = int((total / GOAL) * 100) if GOAL else 0
 filled = min(20, percentage // 5)
