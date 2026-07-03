@@ -6,7 +6,7 @@
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-Arito--cc-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Arito-cc/)
 [![GitHub](https://img.shields.io/badge/GitHub-Arito--cc-181717?style=for-the-badge&logo=github)](https://github.com/Arito-cc)
-![Solved](https://img.shields.io/badge/Solved-24-success?style=for-the-badge)
+![Solved](https://img.shields.io/badge/Solved-25-success?style=for-the-badge)
 
 </div>
 
@@ -14,18 +14,18 @@
 
 | Total | Easy | Medium | Hard |
 |---:|---:|---:|---:|
-| **24** | 🟢 18 | 🟡 6 | 🔴 0 |
+| **25** | 🟢 19 | 🟡 6 | 🔴 0 |
 
 ## 🎯 Goal Progress
 
 ```text
 ███░░░░░░░░░░░░░░░░░
-24/150 (16%)
+25/150 (16%)
 ```
 
 ## 🏆 Milestones
 
-- [ ] 25 Problems
+- [x] 25 Problems
 - [ ] 50 Problems
 - [ ] 75 Problems
 - [ ] 100 Problems
@@ -40,6 +40,7 @@
 
 | # | Problem | Difficulty | Languages |
 |---|---|---|---|
+| 28 | [Find The Index Of The First Occurrence In A String](./0028-find-the-index-of-the-first-occurrence-in-a-string) | 🟢 Easy | Java ☕ |
 | 125 | [Valid Palindrome](./0125-valid-palindrome) | 🟢 Easy | Java ☕ |
 | 344 | [Reverse String](./0344-reverse-string) | 🟢 Easy | Java ☕ |
 | 387 | [First Unique Character In A String](./0387-first-unique-character-in-a-string) | 🟢 Easy | Python 🐍 · Java ☕ |
@@ -49,7 +50,6 @@
 | 283 | [Move Zeroes](./0283-move-zeroes) | 🟢 Easy | Java ☕ |
 | 189 | [Rotate Array](./0189-rotate-array) | 🟡 Medium | Python 🐍 |
 | 169 | [Majority Element](./0169-majority-element) | 🟢 Easy | Python 🐍 |
-| 80 | [Remove Duplicates From Sorted Array Ii](./0080-remove-duplicates-from-sorted-array-ii) | 🟡 Medium | Python 🐍 |
 
 ---
 
