@@ -27,7 +27,6 @@ class Solution {
                     char temp = ch_arr[l];
                     ch_arr[l] = ch_arr[r];
                     ch_arr[r] = temp;
-
                     l++;
                     r--;
                 } else {
