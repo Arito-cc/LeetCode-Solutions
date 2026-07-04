@@ -34,12 +34,13 @@ class Solution {
             }
         }
 
-        String reverseVowelString = "";
+        // String reverseVowelString = "";
 
-        for (int i = 0; i < ch_arr.length; i++) {
-            reverseVowelString += ch_arr[i];
-        }
+        // for (int i = 0; i < ch_arr.length; i++) {
+        //     reverseVowelString += ch_arr[i];
+        // }
 
+        String reverseVowelString = new String(ch_arr);
         return reverseVowelString;
     }
 }
