@@ -13,10 +13,7 @@ class Solution {
             return s;
         }
 
-        char[] ch_arr = new char[s.length()];
-        for (int i = 0; i < s.length(); i++) {
-            ch_arr[i] = s.charAt(i);
-        }
+        char[] ch_arr = s.toCharArray();
 
         int l = 0;
         int r = ch_arr.length - 1;
