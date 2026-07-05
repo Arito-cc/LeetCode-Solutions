@@ -1,27 +1,27 @@
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
 
-        int[] ans = new int[2];
         int l = 0;
-        int r = numbers.length - 1;
+        int r = numbers.length-1;
+        int[] sums = new int[2];
 
-        while (l < r) {
-            if (numbers[l] + numbers[r] == target) {
-                ans[0]=l+1;
-                ans[1]=r+1;
-                // return new int[] {l+1,r+1};
+        while(l<r){
+            int sum = numbers[l]+numbers[r];
+            if(sum==target){
+                sums[0]=l+1;
+                sums[1]=r+1;
+                break;
             }
-            if (numbers[l] + numbers[r] > target) {
+            else if(sum>target){
                 r--;
             }
             else{
                 l++;
             }
-
         }
 
-        // return new int[2];
-        return ans;
+        return sums;
+
     }
 
 }
