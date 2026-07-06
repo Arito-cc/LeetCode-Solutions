@@ -12,6 +12,8 @@ class Solution {
                 if (s.charAt(count) == t.charAt(i)) {
                     count++;
                 }
+            }else{
+                break;
             }
         }
         if (s.length() - count == 0) {
