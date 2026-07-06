@@ -7,12 +7,10 @@ class Solution {
             return false;
         }
         int count = 0;
-        int sp = 0;
         for (int i = 0; i < t.length(); i++) {
             if (count < s.length()) {
-                if (s.charAt(sp) == t.charAt(i)) {
+                if (s.charAt(count) == t.charAt(i)) {
                     count++;
-                    sp++;
                 }
             }
         }
