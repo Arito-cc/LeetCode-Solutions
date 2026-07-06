@@ -6,7 +6,7 @@
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-Arito--cc-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Arito-cc/)
 [![GitHub](https://img.shields.io/badge/GitHub-Arito--cc-181717?style=for-the-badge&logo=github)](https://github.com/Arito-cc)
-![Solved](https://img.shields.io/badge/Solved-26-success?style=for-the-badge)
+![Solved](https://img.shields.io/badge/Solved-27-success?style=for-the-badge)
 
 </div>
 
@@ -14,13 +14,13 @@
 
 | Total | Easy | Medium | Hard |
 |---:|---:|---:|---:|
-| **26** | 🟢 20 | 🟡 6 | 🔴 0 |
+| **27** | 🟢 21 | 🟡 6 | 🔴 0 |
 
 ## 🎯 Goal Progress
 
 ```text
 ███░░░░░░░░░░░░░░░░░
-26/150 (17%)
+27/150 (18%)
 ```
 
 ## 🏆 Milestones
@@ -40,6 +40,7 @@
 
 | # | Problem | Difficulty | Languages |
 |---|---|---|---|
+| 392 | [Is Subsequence](./0392-is-subsequence) | 🟢 Easy | Java ☕ |
 | 345 | [Reverse Vowels Of A String](./0345-reverse-vowels-of-a-string) | 🟢 Easy | Java ☕ |
 | 28 | [Find The Index Of The First Occurrence In A String](./0028-find-the-index-of-the-first-occurrence-in-a-string) | 🟢 Easy | Java ☕ |
 | 125 | [Valid Palindrome](./0125-valid-palindrome) | 🟢 Easy | Java ☕ |
@@ -49,7 +50,6 @@
 | 167 | [Two Sum Ii Input Array Is Sorted](./0167-two-sum-ii-input-array-is-sorted) | 🟡 Medium | Java ☕ |
 | 11 | [Container With Most Water](./0011-container-with-most-water) | 🟡 Medium | Java ☕ |
 | 283 | [Move Zeroes](./0283-move-zeroes) | 🟢 Easy | Java ☕ |
-| 189 | [Rotate Array](./0189-rotate-array) | 🟡 Medium | Python 🐍 |
 
 ---
 
