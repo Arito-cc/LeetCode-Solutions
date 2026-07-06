@@ -16,7 +16,7 @@ class Solution {
                 break;
             }
         }
-        if (s.length() - count == 0) {
+        if (s.length() == count) {
             return true;
         }
 
