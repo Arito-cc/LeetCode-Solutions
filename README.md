@@ -6,7 +6,7 @@
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-Arito--cc-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/Arito-cc/)
 [![GitHub](https://img.shields.io/badge/GitHub-Arito--cc-181717?style=for-the-badge&logo=github)](https://github.com/Arito-cc)
-![Solved](https://img.shields.io/badge/Solved-28-success?style=for-the-badge)
+![Solved](https://img.shields.io/badge/Solved-29-success?style=for-the-badge)
 
 </div>
 
@@ -14,13 +14,13 @@
 
 | Total | Easy | Medium | Hard |
 |---:|---:|---:|---:|
-| **28** | 🟢 22 | 🟡 6 | 🔴 0 |
+| **29** | 🟢 23 | 🟡 6 | 🔴 0 |
 
 ## 🎯 Goal Progress
 
 ```text
 ███░░░░░░░░░░░░░░░░░
-28/150 (18%)
+29/150 (19%)
 ```
 
 ## 🏆 Milestones
@@ -40,6 +40,7 @@
 
 | # | Problem | Difficulty | Languages |
 |---|---|---|---|
+| 977 | [Squares Of A Sorted Array](./0977-squares-of-a-sorted-array) | 🟢 Easy | Java ☕ |
 | 680 | [Valid Palindrome Ii](./0680-valid-palindrome-ii) | 🟢 Easy | Java ☕ |
 | 392 | [Is Subsequence](./0392-is-subsequence) | 🟢 Easy | Java ☕ |
 | 345 | [Reverse Vowels Of A String](./0345-reverse-vowels-of-a-string) | 🟢 Easy | Java ☕ |
@@ -49,7 +50,6 @@
 | 387 | [First Unique Character In A String](./0387-first-unique-character-in-a-string) | 🟢 Easy | Python 🐍 · Java ☕ |
 | 58 | [Length Of Last Word](./0058-length-of-last-word) | 🟢 Easy | Java ☕ |
 | 167 | [Two Sum Ii Input Array Is Sorted](./0167-two-sum-ii-input-array-is-sorted) | 🟡 Medium | Java ☕ |
-| 11 | [Container With Most Water](./0011-container-with-most-water) | 🟡 Medium | Java ☕ |
 
 ---
 
