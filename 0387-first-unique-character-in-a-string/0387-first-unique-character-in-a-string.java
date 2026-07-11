@@ -17,18 +17,16 @@ class Solution {
         // }
         // return -1;
 
-        HashMap<Character,Integer> seen = new HashMap<>();
+
+
+        int[] character = new int[26];
 
         for(int i = 0;i<s.length();i++){
-            if(seen.containsKey(s.charAt(i))){
-                seen.put(s.charAt(i),(seen.get(s.charAt(i))+1));
-            }else{
-                seen.put(s.charAt(i),1);
-            }
+            character[(int)s.charAt(i)-(int)'a']++;
         }
 
         for(int i = 0;i<s.length();i++){
-            if(seen.get(s.charAt(i))==1){
+            if(character[(int)s.charAt(i)-(int)'a']==1){
                 return i;
             }
         }
